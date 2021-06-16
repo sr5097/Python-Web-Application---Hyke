@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!--
+        <script src="../static/js/jquery/jquery.min.js"></script>
+        <script src="../static/js/form.js"></script>
+        -->
+</head>
+<body>
+
+<h2>Team App V1</h2>
+
+<form action="/submit" method="POST">
+        <label for="name">Enter your Name:</label><br>
+        <input type="text" id="name" name="name" value="John" required><br><br>
+
+        <label for="tno">Enter T-shirt Number:</label><br>
+        <input type="text" id="tno" name="tno" value="7" required><br><br>
+
+        <label for="size">Select a Size:</label><br>
+        <input type="radio" id="S" name="size" value="S" required>
+        <label for="S">S</label><br>
+        <input type="radio" id="M" name="size" value="M" required>
+        <label for="M">M</label><br>
+        <input type="radio" id="L" name="size" value="L" required>
+        <label for="L">L</label><br>
+
+        <br><br>
+
+        <input id="btn" type="submit" value="Submit">
+</form>
+</body>
+</html>
